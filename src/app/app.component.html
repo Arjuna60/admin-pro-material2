@@ -111,9 +111,10 @@
 
 
             <mat-list-item>
-                <button class="menu-item" mat-flat-button>
-          <mat-icon>input</mat-icon>
-        Almacen</button>
+                <button class="menu-item" mat-flat-button [routerLink]="['./reports']" routerLinkActive="active">
+                <mat-icon>input</mat-icon>
+                Reportes
+              </button>
             </mat-list-item>
 
             <mat-list-item>
@@ -121,6 +122,14 @@
             <mat-icon>settings_application</mat-icon>
           Settings</button>
             </mat-list-item>
+
+            <mat-list-item>
+                <button class="menu-item" mat-flat-button>
+            <mat-icon>show_chart</mat-icon>
+            Reportes
+          </button>
+            </mat-list-item>
+
 
         </mat-list>
     </mat-sidenav>

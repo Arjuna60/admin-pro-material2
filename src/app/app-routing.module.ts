@@ -31,6 +31,11 @@ const routes: Routes = [
   loadChildren: './messages/messages.module#MessagesModule'
 
  },
+ { path: 'reports',
+ canActivate: [ AuthGuard ],
+ loadChildren: './reports/reports.module#ReportsModule'
+
+},
  { path: 'login',
   component: LoginComponent
 

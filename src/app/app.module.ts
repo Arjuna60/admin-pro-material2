@@ -13,13 +13,14 @@ import { PagesComponent } from './pages/pages.component';
 import { ErrorService } from './error.service';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthRequestOptions } from './auth.request';
+import { ReportsComponent } from './reports/reports.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    PagesComponent
+    PagesComponent,
   ],
   imports: [
     BrowserModule,
