@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ReportsComponent } from './reports.component';
 import { Routes, RouterModule } from '@angular/router';
 import { CustomerReportsComponent } from './customer-reports/customer-reports.component';
+import { SalesByProductComponent } from './sales-by-product/sales-by-product.component';
 
 const routes: Routes = [ {
   path: '',
@@ -10,7 +11,7 @@ const routes: Routes = [ {
 },
   {
     path: 'salesbyproduct',
-    component: CustomerReportsComponent
+    component: SalesByProductComponent
   }
 ];
 
