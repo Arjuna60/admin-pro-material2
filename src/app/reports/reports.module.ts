@@ -5,9 +5,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReportsRoutingModule } from './reports-routing.module';
 import { ReportsComponent } from './reports.component';
 import { CustomerReportsComponent } from './customer-reports/customer-reports.component';
+import { SalesByProductComponent } from './sales-by-product/sales-by-product.component';
 
 @NgModule({
-  declarations: [ReportsComponent, CustomerReportsComponent],
+  declarations: [ReportsComponent, CustomerReportsComponent, SalesByProductComponent],
   imports: [
     CommonModule,
     AngularMaterialModule,
