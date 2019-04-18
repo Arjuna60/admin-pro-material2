@@ -4,9 +4,10 @@ import { AngularMaterialModule } from '../angular-material/angular-material.modu
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReportsRoutingModule } from './reports-routing.module';
 import { ReportsComponent } from './reports.component';
+import { CustomerReportsComponent } from './customer-reports/customer-reports.component';
 
 @NgModule({
-  declarations: [ReportsComponent],
+  declarations: [ReportsComponent, CustomerReportsComponent],
   imports: [
     CommonModule,
     AngularMaterialModule,
